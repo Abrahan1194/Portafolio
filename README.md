@@ -35,8 +35,6 @@ Instalación
 Para obtener una copia local y ejecutarla, sigue estos sencillos pasos:
  * Clona el repositorio:
    git clone https://github.com/Abrahan1194/your-portfolio-repo.git
-
-   (Nota: Reemplaza your-portfolio-repo.git con el nombre real del repositorio una vez que se cree).
  * Navega al directorio del proyecto:
    cd your-portfolio-repo
 
