@@ -1,0 +1,171 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A; /* Negro muy oscuro para el fondo general */
+    color: #F0F0F0; /* Gris muy claro para el texto principal */
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #A30000; /* Rojo oscuro y elegante para acentos y elementos clave */
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Navegación */
+nav {
+    background-color: #222222; /* Negro ligeramente más claro para secciones */
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #A30000; /* Rojo oscuro y elegante */
+}
+
+nav a {
+    color: #F0F0F0; /* Gris muy claro */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #D80000; /* Rojo más brillante para hover */
+}
+
+/* Imágenes */
+img {
+    width: 400px ;
+    height: 400px;
+    display: block; /* Centra la imagen si está dentro de un contenedor de bloque */
+    margin: 20px auto;
+    border: 3px solid #A30000; /* Rojo oscuro y elegante */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #222222; /* Negro ligeramente más claro para secciones */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Listas */
+ul {
+    list-style: none; /* Elimina los puntos predeterminados */
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background-color: #A30000; /* Rojo oscuro y elegante */
+    color: #F0F0F0; /* Gris muy claro */
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block; /* Para que los ítems estén en línea */
+    margin-right: 10px; /* Espacio entre los ítems */
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1A1A1A; /* Negro muy oscuro */
+}
+
+table th, table td {
+    border: 1px solid #444444; /* Gris oscuro para bordes sutiles */
+    padding: 12px;
+    text-align: left;
+    color: #F0F0F0; /* Gris muy claro */
+}
+
+table th {
+    background-color: #A30000; /* Rojo oscuro y elegante */
+    color: #F0F0F0; /* Gris muy claro */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #222222; /* Negro ligeramente más claro para secciones */
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: #D80000; /* Rojo más brillante */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    border: 1px solid #444444; /* Gris oscuro */
+    background-color: #1A1A1A; /* Negro muy oscuro */
+    color: #F0F0F0; /* Gris muy claro */
+    border-radius: 5px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #D80000; /* Rojo más brillante */
+    box-shadow: 0 0 5px #D80000; /* Rojo más brillante */
+}
+
+form input[type="submit"] {
+    background-color: #A30000; /* Rojo oscuro y elegante */
+    color: #F0F0F0; /* Gris muy claro */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #D80000; /* Rojo más brillante */
+}
+
+/* Pie de página */
+footer {
+   
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #222222; /* Negro ligeramente más claro para secciones */
+    color: #F0F0F0; /* Gris muy claro */
+    border-top: 2px solid #A30000; /* Rojo oscuro y elegante */
+}
+
+footer a {
+    
+    color: #F0F0F0; /* Gris muy claro */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #D80000; /* Rojo más brillante */
+}
