@@ -1,20 +1,42 @@
 <!DOCTYPE html> 
+<!-- Define que el documento es HTML5 -->
+
 <html lang="en"> 
-    <head> 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>My Personal Portfolio</title> 
-        <meta name="description" content="Personal portfolio of Abrahan as a Riwi developer."> </head>
-        <link rel="stylesheet" href="portafolio.css">
+<!-- Idioma del documento: inglés -->
+
+<head> 
+    <meta charset="UTF-8">
+    <!-- Codificación de caracteres para admitir símbolos especiales -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Hace que la página sea responsive (adaptable a dispositivos móviles) -->
+
+    <title>My Personal Portfolio</title> 
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+
+    <meta name="description" content="Personal portfolio of Abrahan as a Riwi developer."> 
+    <!-- Breve descripción para motores de búsqueda -->
+</head>
+
+<link rel="stylesheet" href="portafolio.css">
+<!-- Vincula la hoja de estilos externa -->
+
 <body>
-     <h1>Abrahan Taborda- Riwi Developer</h1> 
-     <nav> 
+    <h1>Abrahan Taborda- Riwi Developer</h1> 
+    <!-- Encabezado principal del sitio -->
+
+    <nav> 
+        <!-- Barra de navegación con enlaces a secciones internas -->
         <a href="#about-me">About Me</a> 
         <a href="#projects">Projects</a>
-         <a href="#contact">Contact</a>
+        <a href="#contact">Contact</a>
     </nav>
+
     <img src="abrahan1.png" alt="'s photo" width="200"> 
+    <!-- Imagen del desarrollador con tamaño definido -->
+
     <section id="about-me">
+        <!-- Sección de presentación personal -->
         <h2>About Me</h2> 
         <p>
            Hello, I am Abrahan Taborda.<br>
@@ -25,48 +47,65 @@
     </section>
 
     <section> 
+        <!-- Sección de habilidades -->
         <h2>Skills</h2> 
-        <ul> <li>HTML</li> 
-             <li>Python</li> 
-             <li>CSS</li> 
-            
+        <ul> 
+            <li>HTML</li> 
+            <li>Python</li> 
+            <li>CSS</li> 
         </ul>
     </section>
 
     <section id="projects"> 
+        <!-- Sección de proyectos -->
         <h2>Projects</h2> 
         <img src="login.png" alt="Project portfolio image" width="300">
-        <h3>Project 1: Login</h3> 
-        <p>This is my first project where I built a login using HTML and CSS.</p> 
-        <table> 
-        <tr> 
-        <th>Project Name</th>
-        <th>Technologies Used</th> 
-        <th>Link</th> 
-       </tr>
-        <tr> 
-            <td>Login</td> 
-            <td>HTML Y CSS</td> 
-            <td><a href="https://abrahan1194.github.io/Login/">View Project</a>
-            </td> 
-        </tr>
-     </table>
-     </section>
+        <!-- Imagen ilustrativa del proyecto -->
 
-    <section id="contact">
-    <h2>Contact Me</h2> 
-    <form action="/send" method="post"> 
-    <label for="name">Name: </label> 
-    <input type="text" id="name" name="name" required> 
-    <label for="email">Email:</label> 
-    <input type="email" id="email" name="email" required> 
-    <label for="message">Message: </label> <textarea id="message" name="message" rows="4" required></textarea> 
-    <input type="submit" value="Send"> 
-    </form>
+        <h3>Project 1: Login</h3> 
+        <!-- Título del proyecto -->
+
+        <p>This is my first project where I built a login using HTML and CSS.</p> 
+        <!-- Descripción del proyecto -->
+
+        <table> 
+            <!-- Tabla con detalles del proyecto -->
+            <tr> 
+                <th>Project Name</th>
+                <th>Technologies Used</th> 
+                <th>Link</th> 
+            </tr>
+            <tr> 
+                <td>Login</td> 
+                <td>HTML Y CSS</td> 
+                <td><a href="https://abrahan1194.github.io/Login/">View Project</a></td> 
+            </tr>
+        </table>
     </section>
 
-    <footer> <h3>Find me on:</h3> <p>
-            <a href="https://github.com/Abrahan1194?tab=repositories" target="_blank">GitHub</a> </p>
+    <section id="contact">
+        <!-- Sección de contacto con formulario -->
+        <h2>Contact Me</h2> 
+        <form action="/send" method="post"> 
+            <label for="name">Name: </label> 
+            <input type="text" id="name" name="name" required> 
+
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required> 
+
+            <label for="message">Message: </label> 
+            <textarea id="message" name="message" rows="4" required></textarea> 
+
+            <input type="submit" value="Send"> 
+        </form>
+    </section>
+
+    <footer> 
+        <!-- Pie de página con enlace a GitHub -->
+        <h3>Find me on:</h3> 
+        <p>
+            <a href="https://github.com/Abrahan1194?tab=repositories" target="_blank">GitHub</a> 
+        </p>
     </footer>
 
 </body>
