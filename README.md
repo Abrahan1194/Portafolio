@@ -1,3 +1,4 @@
+#Mi Portafolio
 Este código HTML crea una página de portafolio personal para Abrahan Taborda, un desarrollador de Riwi. A continuación, se presenta un archivo README que resume el proyecto.
 Portafolio Personal de Abrahan Taborda
 Este repositorio contiene el código fuente del sitio web del portafolio personal de Abrahan Taborda. Este proyecto muestra sus habilidades, proyectos y ofrece una forma de contactarlo.
@@ -7,9 +8,6 @@ Tabla de Contenidos
  * Tecnologías
  * Proyectos
  * Contacto
- * Instalación
- * Uso
- * Licencia
 Acerca de
 Este sitio web de portafolio personal está diseñado para presentar a Abrahan Taborda como desarrollador de Riwi, resaltar sus habilidades técnicas y mostrar sus proyectos completados. Sirve como un currículum en línea y un punto de contacto para posibles colaboraciones u oportunidades.
 Características
@@ -17,7 +15,7 @@ Características
  * Sección de Habilidades: Enumera las tecnologías y lenguajes clave en los que Abrahan es competente.
  * Sección de Proyectos: Muestra proyectos destacados con descripciones, tecnologías utilizadas y enlaces a demostraciones en vivo.
  * Formulario de Contacto: Permite a los visitantes enviar mensajes directamente a Abrahan.
- * Diseño Responsivo: (Asumido, basado en la metaetiqueta viewport) El portafolio está diseñado para ser accesible y visualmente atractivo en varios dispositivos.
+ * Diseño Responsivo:El portafolio está diseñado para ser accesible y visualmente atractivo en varios dispositivos.
  * Barra de Navegación: Navegación sencilla a diferentes secciones de la página.
 Tecnologías
 El portafolio está construido utilizando las siguientes tecnologías web:
