@@ -55,6 +55,25 @@ section {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra sutil */
 }
 
+
+#projects{
+    display: grid; /* Organiza los elementos en una cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));/* Las columnas de la cuadrícula tendrán un ancho mínimo de 280px y se adaptarán */
+    gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+    padding: 5px; /* Espacio interno */
+}
+.projects_1{
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Sombra sutil */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centra el texto */
+    transition: transform 0.3s ease; /* Animación suave al pasar el ratón */
+}
+.projects_1:hover{
+     transform: scale(1.2)/* Se mueve ligeramente hacia arriba */
+}
+
+
 /* Párrafos */
 p {
     margin-bottom: 15px;
