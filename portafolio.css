@@ -57,7 +57,7 @@ section {
 }
 
 
-#projects{
+.projects{
     display: grid; /* Organiza los elementos en una cuadrícula */
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));/* Las columnas de la cuadrícula tendrán un ancho mínimo de 280px y se adaptarán */
     gap: 20px; /* Espacio entre los elementos de la cuadrícula */
